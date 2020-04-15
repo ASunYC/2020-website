@@ -1,0 +1,343 @@
+/* .container-fluid {
+  padding: 0;
+} */
+/* 通用样式*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+i:before {
+  margin-left: 0px !important;
+}
+
+body {
+  font: 400 15px/28px 'Poppins', sans-serif;
+  background: #fcfcfc;
+  letter-spacing: 0px;
+  color: #677294;
+  padding: 0px;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+.body_wrapper {
+  z-index: 20;
+  overflow: hidden;
+}
+
+a,
+.btn,
+button {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.digihail_logo img + img {
+  display: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.header_info {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 20;
+  top: 0;
+}
+
+.menu_one {
+  padding: 0;
+}
+
+.advantage_header img {
+  margin-top: -18px;
+}
+
+@media (min-width: 1920px) {
+  .header_area .container,
+  .footlink .container {
+    width: 1700px;
+  }
+
+  .technology_banner_area .container {
+    width: 1700px;
+  }
+
+  .introduction .container {
+    width: 1500px;
+  }
+
+  .contact_info > .container {
+    width: 1500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu > .nav-item:hover .dropdown-menu {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .menu
+    > .nav-item:hover
+    .dropdown-menu.mega_menu_three
+    .nav-item
+    .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 992px) and (min-width: 992px) {
+  .menu > .nav-item:hover .dropdown-menu > .nav-item:hover .dropdown-menu {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/*内容样式 */
+.technology_banner_area {
+  content: '';
+  display: block;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.technology_banner_area > img,
+.funcol > div > img {
+  width: 100%;
+}
+
+.technology_info {
+  background: #eee;
+  position: relative;
+  z-index: 1;
+  min-height: 560px;
+}
+
+.advantage_header {
+  width: 60%;
+  text-align: center;
+  font-weight: 200;
+  display: block;
+  margin: 60px auto 40px;
+}
+
+.introduction h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.introduction .techImg {
+  margin-top: 25px;
+}
+
+.thumbnail {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  max-width: 300px;
+  height: 340px;
+  margin-bottom: 30px;
+  border-radius: 0;
+  box-shadow: 0px 1px 15px #cccccc;
+  border-width: 0;
+}
+
+.caption p {
+  font-size: 20px;
+  color: #555555;
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+.caption .enTitle {
+  font-family: Segoe UI;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.caption .enDescribe {
+  margin: 33px 29px;
+  color: #333333;
+  line-height: 22px;
+}
+
+.funcol {
+  padding-bottom: 70px;
+}
+
+.contact_info {
+  background: #363b56;
+  position: relative;
+  z-index: 1;
+  min-height: 645px;
+}
+
+.contactHeader {
+  margin-bottom: 15px;
+}
+
+.contact_info h3 {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.contact_info span {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.contact_info input {
+  margin-bottom: 10px;
+}
+
+.contact_info h5 {
+  color: #19a2ed;
+  margin: 5px 0;
+}
+
+.contact_info button {
+  width: 164px;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 23px;
+  text-align: center;
+  box-shadow: 2px 3px 13px #353434;
+  border-radius: 25px;
+  text-align: center;
+  letter-spacing: 25px;
+  text-indent: 25px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#15dafe),
+    to(#138bf8)
+  );
+  margin-top: 40px;
+}
+
+.weixin img {
+  padding: 0 12px;
+}
+
+/*footer */
+
+.footlink {
+  background: #24252b;
+  padding: 40px 0px 2px;
+}
+
+.footlink .company_widget p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.footlink .company_widget .f_social_icon {
+  margin-top: 50px;
+}
+
+.footlink .company_widget .f_social_icon a {
+  background: transparent;
+  font-size: 14px;
+  color: #7b7b93;
+  border: 1px solid #2c3445;
+}
+
+.footlink .company_widget .f_social_icon a:hover {
+  background: #f8636b;
+  color: #fff;
+  border-color: #f8636b;
+}
+
+.footlink .f_widget.about-widget .f_list li a,
+.footlink .f_widget.company_widget p {
+  color: #7b7b93;
+  font-weight: 400;
+}
+
+.footlink .f_widget.about-widget .f_list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footlink .f_widget.about-widget .f_list li a:before {
+  background: #f8636b;
+}
+.f_size_20 {
+  font-size: 20px;
+  color: white;
+}
+.f_size_14 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+/* bootstrap 调整样式 */

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <stl:include file="@/include/header.html"> </stl:include>
+    <title>可视化数据平台</title>
+    <style>
+      .container {
+        padding: 0 4%;
+      }
+      .data-light-func {
+      }
+      .data-light-func ul {
+        padding: 0;
+        list-style: none;
+      }
+      /* 功能亮点title */
+      .data-light-func .fun-title {
+      }
+      .data-light-func .fun-title {
+        text-align: center;
+      }
+      .data-light-func .fun-title img {
+        max-width: 100%;
+      }
+      .data-light-func .fun-title h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        color: #333333;
+      }
+      /* 功能列表list */
+      .func-wrapper {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 20px;
+      }
+      .func-wrapper img.bg-img,
+      .func-wrapper div.content-list {
+        position: absolute;
+      }
+      .func-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+        left: 0;
+        bottom: 0;
+      }
+      .func-wrapper .img-middle {
+        bottom: 0;
+        right: 0;
+      }
+      /* 功能说明列表 */
+      .func-wrapper div.content-list {
+        width: 54%;
+        height: 70%;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(0deg, #2f3144 0%, #2c2e42 100%),
+          linear-gradient(#32354c, #32354c);
+        background-blend-mode: normal, normal;
+        text-align: center;
+      }
+      .func-wrapper div.list-2 {
+        width: 34%;
+        height: 100%;
+        left: 0;
+      }
+      /* 列表内容模块 */
+      .func-wrapper div.content-list .cus-flex-1 {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .func-wrapper div.content-list .cus-flex-1 .pd-4 {
+        flex: 1;
+        padding: 0 4%;
+      }
+      .func-wrapper div.content-list .cus-flex-1 .pd-4 h5 {
+        text-align: left;
+      }
+      /* .func-wrapper div.content-list {
+        position: relative;
+      } */
+      .func-wrapper div.content-list .cus-flex-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+      .func-wrapper div.content-list .cus-flex-2 .part1,
+      .func-wrapper div.content-list .cus-flex-2 .part2 {
+        padding: 4%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+      }
+      .func-wrapper div.content-list .cus-flex-2 .part1 {
+        padding-top: 0;
+      }
+      .func-wrapper div.content-list .cus-flex-2 .part3 {
+        width: 100%;
+        padding: 0 4%;
+        text-align: left;
+      }
+      .func-wrapper div.content-list .cus-flex-3 {
+        padding: 0 4%;
+        text-align: left;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .func-wrapper div.content-list h4 {
+        /* margin: 0;
+        padding: 0; */
+        text-align: left;
+        padding-left: 4%;
+        font-size: 26px;
+        font-weight: bold;
+        color: #06b5fc;
+      }
+      .func-wrapper div.content-list h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #22d1d7;
+      }
+      .func-wrapper div.content-list img {
+        max-width: 100%;
+      }
+      .func-wrapper div.content-list p {
+        /* padding: 0 10%; */
+        padding-right: 10%;
+        font-size: 14px;
+        color: #dddddd;
+        text-align: left;
+      }
+      /* 自定义样式 */
+      .bg-color {
+        background-image: linear-gradient(0deg, #2f3144 0%, #2c2e42 100%),
+          linear-gradient(#32354c, #32354c);
+        background-blend-mode: normal, normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 头部组件+banner -->
+    <section></section>
+    <!-- 技术优势 -->
+    <section></section>
+    <!-- 功能亮点 -->
+    <section class="data-light-func">
+      <div class="container">
+        <!-- 标题 -->
+        <div class="fun-title">
+          <h4>功能亮点</h4>
+          <img src="../img/light-function.png" alt="" />
+        </div>
+        <!-- 列表 -->
+        <ul class="row">
+          <li class="col-md-12">
+            <div class="func-wrapper">
+              <!-- 图片 -->
+              <img
+                class="bg-img"
+                src="../img/viewgeo/data-lightfunc01.png"
+                alt=""
+              />
+              <!-- 功能说明列表 -->
+              <div class="content-list">
+                <h4>分布式时间控制器</h4>
+                <ul class="cus-flex-1">
+                  <li class="col-md-4 pd-4">
+                    <h5>强大的集群时统控制</h5>
+                    <img src="../img/data-light-func-title.png" alt="" />
+                    <p>
+                      控制分布式渲染集群的每台设备，统一进行时间校准、播放管理、多源数据访问调度等功能。
+                    </p>
+                  </li>
+                  <li class="col-md-4 pd-4">
+                    <h5>丰富的回放模式支持</h5>
+                    <img src="../img/data-light-func-title.png" alt="" />
+                    <p>
+                      内置高级时间轴控制器，在播放/暂停/跳转等常用数据播放控制功能外，还提供播放倍速、回放时间粒度、瞬时/累积数值等多种模式控制功
+                    </p>
+                  </li>
+                  <li class="col-md-4 pd-4">
+                    <h5>支持实时数据驱动模式</h5>
+                    <img src="../img/data-light-func-title.png" alt="" />
+                    <p>
+                      除历史数据回放外，平台还可支持实时数据显示，并提供主动读取和被动接收两种数据接入方式，充分满足实时数据监测业务情景的需求。
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="col-md-12">
+            <div class="func-wrapper bg-color">
+              <!-- 图片 -->
+              <img
+                class="img-middle"
+                src="../img/viewgeo/data-lightfunc02.png"
+                alt=""
+              />
+              <!-- 功能说明列表 -->
+              <div class="content-list list-2">
+                <h4>自动数据萃取（ETL）</h4>
+                <ul class="cus-flex-2 row">
+                  <li class="part1">
+                    <div class="col-md-6">
+                      <h5>广泛的数据源接入支持</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        兼容现行的各类数据源，无论是网络报文、文件、数据库、还是HDFS体系，都可以高效接入。
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5>可配置的数据萃取引擎</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        平台提供友好易用的图形化操作界面，数据萃取的全部流程均可通过配置完成，配置结果可自动化执行。
+                      </p>
+                    </div>
+                  </li>
+                  <li class="part2">
+                    <div class="col-md-6">
+                      <h5>数据存储架构匹配</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        支持按时间周期（月/天/小时/分钟）自动进行数据萃取，且每次操作可只对增量数据执行，不必同步全量数据，大幅提升数据萃取效率，保证系统高效运行。
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <h5>增量式自动化数据萃取</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        支持针对不同使用情景，为用户匹配数据存储架构（行存/列存/图存/键值等），获得卓越的数据处理性能，确保集群并发访问的高效响应。
+                      </p>
+                    </div>
+                  </li>
+                  <li class="part3">
+                    <div class="col-md-12">
+                      <h5>支持实时数据转换萃取</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        支持高性能实时数据接入、转换、萃取，并可将数据处理结果高效转发渲染集群，实现数据萃取结果的同步显示。
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="col-md-12">
+            <div class="func-wrapper">
+              <!-- 图片 -->
+              <img src="../img/viewgeo/data-lightfunc03.png" alt="" />
+              <!-- 功能说明列表 -->
+              <div class="content-list">
+                <h4>数据分析建模</h4>
+                <ul class="cus-flex-3">
+                  <li class="part1">
+                    <div class="col-md-4">
+                      <h5>便捷的数据模型编辑器</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        平台提供图形化的辅助数据建模工具，操作简单直观，易于掌握，可大幅降低用户学习成本，并提升数据模型构建效率。
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <h5>支持超大数据集</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        具备分布式横向扩展架构，支持节点扩充，可实现快速、增量式平滑扩容，以支撑超大规模业务数据吞吐量。
+                      </p>
+                    </div>
+                  </li>
+                  <li class="part2">
+                    <div class="col-md-4">
+                      <h5>高性能多维数据集构建</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        支持定义数据维度、指标，基于预计算技术，对数据进行多层级聚合，有效保证海量数据集的高效分析，上卷、下钻、切片等多种操作均可达到
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <h5>内置辅助数据分析工具</h5>
+                      <img src="../img/data-light-func-title.png" alt="" />
+                      <p>
+                        平台内置体系化、专业化的分析算法模块及辅助数据模型，可针对用户的现有数据，进行时间/空间/层级结构等多维度分析，助力用户挖掘数据价值。
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- form 表单 -->
+    <!-- footer尾部 -->
+    <stl:include file="@/include/footer.html"> </stl:include>
+  </body>
+</html>

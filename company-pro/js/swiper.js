@@ -1,0 +1,14 @@
+$(function(){
+    $('#swiper_Navigation_title_Subheading').mouseover(function(){
+        $('#swiper_Navigation_title_content1').css("visibility","visible")
+    });
+    $('#swiper_Navigation_title_Subheading').mouseout(function(){
+        $('#swiper_Navigation_title_content1').css("visibility","hidden")
+    });
+    $('#swiper_Navigation_title_content1').mouseover(function(){
+        $('#swiper_Navigation_title_content1').css("visibility","visible")
+    });
+    $('#swiper_Navigation_title_content1').mouseout(function(){
+        $('#swiper_Navigation_title_content1').css("visibility","hidden")
+    });
+})

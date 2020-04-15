@@ -1,0 +1,73 @@
+<!-- banner  -->
+
+<!-- Swiper -->
+<div id="swiperBox">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/company-pro/img/banner.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/company-pro/img/banner.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/company-pro/img/banner.png" alt="" />
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div id="swiper_Navigation">
+    <ul id="swiper_Navigation_title">
+      <li id="swiper_Navigation_title_Subheading">
+        <p>智慧城市</p>
+        <p>Smart city</p>
+        <div id="swiper_Navigation_title_content1">
+          <ul>
+            <li><a href="#">智慧城市</a></li>
+            <li><a href="#">智慧城管</a></li>
+            <li><a href="#">智慧电力</a></li>
+            <li><a href="#">智慧能源</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">智慧政务</a></li>
+            <li><a href="#">智慧民生</a></li>
+            <li><a href="#">产业经济可视化</a></li>
+            <li><a href="#">气象可视化</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <p>智慧园区</p>
+        <p>Smart Park</p>
+      </li>
+      <li>
+        <p>公共安全</p>
+        <p>Public Safety</p>
+      </li>
+      <li>
+        <p>航天军工</p>
+        <p>Aerospace Industry</p>
+      </li>
+      <li>
+        <p>指挥中心</p>
+        <p>Command Centre</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+    },
+  });
+</script>

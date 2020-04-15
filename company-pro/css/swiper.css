@@ -1,0 +1,98 @@
+html,
+body {
+  position: relative;
+  height: 2000px;
+}
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 960px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next {
+  background: url(../img/Arrow.png) no-repeat !important;
+  right: 100px !important;
+}
+.swiper-pagination-bullets {
+  right: 242px !important;
+}
+.swiper-slide {
+  height: 960px !important;
+  width: 100%;
+}
+#swiper_Navigation_title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+#swiper_Navigation_title > li {
+  text-align: center;
+  z-index: 99;
+}
+#swiper_Navigation_title > li > p:first-child {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#swiper_Navigation_title > li > p:last-of-type {
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#swiperBox {
+  width: 100%;
+  position: relative;
+}
+#swiper_Navigation {
+  position: absolute;
+  bottom: 41px;
+  width: 100%;
+  z-index: 99;
+  padding: 0 10%;
+}
+#swiper_Navigation_title_content1 {
+  width: 288px !important;
+  height: 272px !important;
+  background-image: url(../img/bg_02.png) no-repeat !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  text-align: start !important;
+  position: absolute !important;
+  left: -96px !important;
+  bottom: -40px !important;
+  visibility: hidden !important;
+}
+#swiper_Navigation_title_content1 > ul {
+  margin-top: 38px;
+}
+#swiper_Navigation_title_content1 > ul > li > a {
+  color: #cdf9ff;
+}
+#swiper_Navigation_title_content1 > ul > li > a:hover {
+  color: #2284d7;
+}

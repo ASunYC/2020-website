@@ -1,0 +1,137 @@
+.container {
+  /* padding: 0 4%; */
+}
+.data-light-func {
+}
+.data-light-func ul {
+  padding: 0;
+  list-style: none;
+}
+/* 功能亮点title */
+.data-light-func .fun-title {
+}
+.data-light-func .fun-title {
+  text-align: center;
+}
+.data-light-func .fun-title img {
+  max-width: 100%;
+}
+.data-light-func .fun-title h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #333333;
+}
+/* 功能列表list */
+.func-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.func-wrapper img.bg-img,
+.func-wrapper div.content-list {
+  position: absolute;
+}
+.func-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  bottom: 0;
+}
+.func-wrapper .img-middle {
+  bottom: 0;
+  right: 0;
+}
+/* 功能说明列表 */
+.func-wrapper div.content-list {
+  width: 54%;
+  height: 70%;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(0deg, #2f3144 0%, #2c2e42 100%),
+    linear-gradient(#32354c, #32354c);
+  background-blend-mode: normal, normal;
+  text-align: center;
+}
+.func-wrapper div.list-2 {
+  width: 34%;
+  height: 100%;
+  left: 0;
+}
+/* 列表内容模块 */
+.func-wrapper div.content-list .cus-flex-1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.func-wrapper div.content-list .cus-flex-1 .pd-4 {
+  flex: 1;
+  padding: 0 4%;
+}
+.func-wrapper div.content-list .cus-flex-1 .pd-4 h5 {
+  text-align: left;
+}
+/* .func-wrapper div.content-list {
+        position: relative;
+      } */
+.func-wrapper div.content-list .cus-flex-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.func-wrapper div.content-list .cus-flex-2 .part1,
+.func-wrapper div.content-list .cus-flex-2 .part2 {
+  padding: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.func-wrapper div.content-list .cus-flex-2 .part1 {
+  padding-top: 0;
+}
+.func-wrapper div.content-list .cus-flex-2 .part3 {
+  width: 100%;
+  padding: 0 4%;
+  text-align: left;
+}
+.func-wrapper div.content-list .cus-flex-3 {
+  padding: 0 4%;
+  text-align: left;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.func-wrapper div.content-list h4 {
+  /* margin: 0;
+        padding: 0; */
+  text-align: left;
+  padding-left: 4%;
+  font-size: 26px;
+  font-weight: bold;
+  color: #06b5fc;
+}
+.func-wrapper div.content-list h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #22d1d7;
+}
+.func-wrapper div.content-list img {
+  max-width: 100%;
+}
+.func-wrapper div.content-list p {
+  /* padding: 0 10%; */
+  padding-right: 10%;
+  font-size: 14px;
+  color: #dddddd;
+  text-align: left;
+}
+/* 自定义样式 */
+.bg-color {
+  background-image: linear-gradient(0deg, #2f3144 0%, #2c2e42 100%),
+    linear-gradient(#32354c, #32354c);
+  background-blend-mode: normal, normal;
+}

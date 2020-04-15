@@ -1,0 +1,26 @@
+$(function(){
+    $('#technology').mouseover(function(){
+        $('#Navigation_content_technology').css("display","block")
+    });
+    $('#technology').mouseout(function(){
+        $('#Navigation_content_technology').css("display","none")
+    });
+    $('#Navigation_content_technology').mouseover(function(){
+        $('#Navigation_content_technology').css("display","block")
+    });
+    $('#Navigation_content_technology').mouseout(function(){
+        $('#Navigation_content_technology').css("display","none")
+    });
+    $('#product').mouseover(function(){
+        $('#Navigation_content_product').css("visibility","visible")
+    });
+    $('#product').mouseout(function(){
+        $('#Navigation_content_product').css("visibility","hidden")
+    });
+    $('#Navigation_content_product').mouseover(function(){
+        $('#Navigation_content_product').css("visibility","visible")
+    });
+    $('#Navigation_content_product').mouseout(function(){
+        $('#Navigation_content_product').css("visibility","hidden")
+    });
+})

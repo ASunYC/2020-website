@@ -1,0 +1,60 @@
+.cooperator {
+  width: 75%;
+  margin: auto;
+}
+/* 标题 */
+.coop-title {
+  padding: 2%;
+}
+.coop-title p.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+  color: #515151;
+  text-align: center;
+}
+.coop-title div.title-bar {
+  text-align: center;
+}
+/* 合作介绍 */
+.coop-intro {
+  text-align: center;
+}
+.coop-intro p {
+  /* font: '微软雅黑' 22px; */
+  margin: 0 auto;
+  padding: 0;
+  height: 62px;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #222222;
+}
+/* 合作单位logo */
+.coop-logo {
+  padding: 2%;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  overflow: hidden;
+}
+ul.coop-logo li.coopetator-logo {
+  width: 100%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+ul.coop-logo li.coopetator-logo p {
+  height: 100%;
+  padding: 0 10px;
+  margin: 0;
+}
+ul.coop-logo li.coopetator-logo p img {
+  max-width: 100%;
+}

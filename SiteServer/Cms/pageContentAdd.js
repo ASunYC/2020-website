@@ -1,0 +1,1 @@
+var $url="/pages/main";function insertHtml(a,e){e&&UE.getEditor(a,{allowDivTransToP:!1,maximumWords:99999999}).execCommand("insertHTML",e)}var data={allTagNames:null,tagNames:[]},methods={getConfig:function(){this.allTagNames=window.allTagNames,this.tagNames=window.tagNames}},$vue=new Vue({el:"#myForm",data:data,methods:methods,created:function(){this.getConfig()}});

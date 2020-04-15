@@ -1,0 +1,82 @@
+/* 功能亮点 */
+.container {
+  padding: 0 4%;
+}
+.list-unstyled {
+  list-style: none;
+}
+.light-function .fun-title {
+  text-align: center;
+}
+.light-function .fun-title img {
+  max-width: 100%;
+}
+.light-function .fun-title h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #333333;
+}
+/*  */
+.li-wrapper {
+}
+.li-wrapper img {
+  max-width: 100%;
+}
+.li-wrapper div.fun-content {
+  width: 610px;
+  height: 265px;
+  background-image: linear-gradient(0deg, #2f3144 0%, #2c2e42 100%),
+    linear-gradient(#32354c, #32354c);
+  background-blend-mode: normal, normal;
+  text-align: center;
+}
+.li-wrapper div.fun-content h4 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #16c2fa;
+}
+.li-wrapper div.fun-content p {
+  padding: 0 2%;
+  text-align: left;
+  color: #dddd;
+}
+.posi-relative {
+  position: relative;
+  width: 100%;
+  height: 504px;
+}
+.posi-relative img {
+  position: absolute;
+}
+.posi-relative .fun-content {
+  position: absolute;
+}
+.fun-wrapper li:nth-child(odd) .posi-relative img {
+  right: 0;
+  bottom: 0;
+}
+.fun-wrapper li:nth-child(odd) .posi-relative .fun-content {
+  left: 0;
+  bottom: 0;
+}
+.fun-wrapper li:nth-child(even) .posi-relative img {
+  left: 0;
+  bottom: 0;
+}
+.fun-wrapper li:nth-child(even) .posi-relative .fun-content {
+  right: 0;
+  bottom: 0;
+}
+.fun-wrapper {
+  padding: 0;
+}
+
+/* 清除浮动 */
+.clearfix {
+  display: block;
+  content: '';
+  clear: both;
+}

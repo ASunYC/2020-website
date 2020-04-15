@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <title>数字冰雹</title>
+      <meta
+        name="Keywords"
+        content="数字冰雹,可视化,数据可视化,数字孪生,指挥中心,智慧城市,公安,警务,活动安保,交通管理,应急指挥,司法监狱,监所,电力,电网,智慧园区,智能楼宇,战场态势,信息安全,工业监控,数据监测,数据分析,地理信息系统"
+      />
+      <meta
+        name="Description"
+        content="数字冰雹大数据可视化分析决策系统，与行业需求深度结合，系统兼具优秀的视觉效果与高性能操控，可广泛应用于航天战场、智慧城市、警务公安、智慧交管、司法监所、园区景区、智慧电力、应急指挥等领域。我们提供一站式系统解决方案，帮助决策者发掘数据背后的规律，提高决策效率与能力"
+      />
+      <meta name="author" content="数字冰雹" />
+      <meta name="robots" content="index,nofollow" />
+      <!-- <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" /> -->
+      <meta name="application-name" content="digihail.com/" />
+      <!-- Site CSS -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css" />
+      <link rel="stylesheet" href="../css/responsive.css" />
+      <link rel="stylesheet" href="../css/common.css" />
+      <link rel="stylesheet" href="../css//normalize.css" />
+      <!-- 单独分离样式文件 -->
+      <style>
+        /* 系统构成 */
+        .system-construct {
+          background: #fff;
+        }
+        .system-construct .container {
+          position: relative;
+        }
+        .system-construct .bg-dark {
+          width: 100%;
+          height: 220px;
+          background: linear-gradient(to right bottom, #1d212f, #363d4e);
+        }
+        .system-construct .bg-white {
+          width: 100%;
+          height: 700px;
+        }
+        .system-construct .system-construct-content {
+          position: absolute;
+          top: -26%;
+          left: 0;
+        }
+        .system-construct .system-construct-content h4 {
+          font-size: 30px;
+          font-weight: bold;
+          color: #fefefe;
+          text-align: center;
+          margin-top: -2%;
+          /* padding-bottom: 10px; */
+        }
+        .system-construct .system-construct-content .image {
+          margin: auto;
+        }
+        .system-construct .system-construct-content .image img {
+          max-width: 100%;
+        }
+        /* 可视化说明列表 */
+        .viewable-list {
+          /* padding-top: 10px; */
+          padding: 20px !important;
+          background: #f4f4f4;
+        }
+        .viewable-list .viewable-list-item .item-show {
+          margin: auto;
+        }
+        .viewable-list .viewable-list-item .item-show .item-img {
+          /* margin-right: -22px; */
+          vertical-align: middle;
+        }
+        .viewable-list .viewable-list-item .item-show .item-img img {
+          max-width: 100%;
+          padding-top: 40px;
+        }
+
+        .viewable-list .viewable-list-item .item-show .item-content {
+        }
+        .viewable-list .viewable-list-item .item-show .item-content h5 {
+          font-size: 18px;
+          font-weight: bold;
+          color: #1f3147;
+        }
+        .viewable-list .viewable-list-item .item-show .item-content p {
+          font-size: 14px;
+          color: #666666;
+        }
+        /*可视化适用场景  */
+        .viewable-useage {
+        }
+        .viewable-useage div.useage-title {
+          text-align: center;
+        }
+        .viewable-useage div.useage-title h4 {
+          font-size: 22px;
+          font-weight: bold;
+          color: #333333;
+          margin-bottom: 0;
+        }
+        .viewable-useage div.useage-title .title-bar {
+          margin-top: -10px;
+        }
+        .viewable-useage div.useage-title .title-bar img {
+          max-width: 100%;
+        }
+        .viewable-useage div.useage-list div {
+          /* background: #000; */
+        }
+        .viewable-useage div.useage-list .useage-list-item {
+          text-align: center;
+        }
+        .viewable-useage div.useage-list .useage-list-item h4 {
+          font-size: 20px;
+          font-weight: bold;
+          color: #2284d7;
+        }
+        .viewable-useage div.useage-list .useage-list-item p {
+          padding-left: 2%;
+          font-size: 14px;
+          color: #555555;
+          text-align: left;
+        }
+        .viewable-useage div.useage-list .useage-list-item div img {
+          max-width: 100%;
+        }
+        /* bootstrap样式重构 */
+        .container-fluid {
+          padding: 0;
+        }
+        /* 自定义样式 */
+        .p-20 {
+          padding: 20px;
+        }
+      </style>
+    </head>
+  </head>
+  <body>
+    <!-- 系统构成 -->
+    <section class="system-construct container-fluid">
+      <section class="bg-dark"></section>
+      <div class="container">
+        <section class="bg-white"></section>
+        <section class="system-construct-content">
+          <div class="p-20">
+            <h4>系统构成</h4>
+          </div>
+          <div class="image">
+            <img src="../img/viewable/system-construct.png" alt="" />
+            <img src="../img/viewable/system-construct-bg02.png" alt="" />
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- 可视化说明列表 -->
+    <section class="viewable-list container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="viewable-list-item col-md-6">
+            <ul class="col-wrap">
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item01.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>可视化渲染机/集群</h5>
+                  <p>
+                    数据可视化渲染机是可视化系统运行、图像渲染输出的专用设备。采用软硬件一体式架构，内置可视化基础软件，提供丰富的可视化组件和灵活
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item02.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>三维渲染引擎</h5>
+                  <p>
+                    数字冰雹三维渲染引擎是为可视化系统提供三维显示支持的专用软件产品。产品包含丰富的三维可视化组件，具备逼真的可视化渲染效果，内置
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item03.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>可视化数据平台</h5>
+                  <p>
+                    可视化数据平台是支撑可视化系统进行数据对接、数据萃取、分析建模和数据播放的专用软件产品。产品集成多数据源接入支持、自动化数据萃
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item04.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>专业操控席位</h5>
+                  <p>
+                    针对指挥中心复杂场景设计定制，打造结构合理、科学布局、符合人体工程学设计的专业操控席位方案，支持对指挥中心各业务系统的远端集中
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="viewable-list-item col-md-6">
+            <ul class="col-wrap">
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item05.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>可视化运行平台</h5>
+                  <p>
+                    数字冰雹可视化运行平台是为可视化系统提供基础显示支持的专用软件产品。产品具备强大的集群渲染支持能力，包含丰富的可视化组件，原生
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item06.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>可视化地图平台</h5>
+                  <p>
+                    可视化地图平台是支撑可视化系统进行地图显示的专用软件产品。为可视化决策中心提供地图数据服务，提供个性化地图风格和全离线地图解决
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item07.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>超高清显示大屏</h5>
+                  <p>
+                    显示大屏作为可视化决策中心内重要的显示输出设备，是可视化的视觉聚焦点。数字冰雹针对不同使用场景，为指挥中心量身打造大屏显示解决
+                  </p>
+                </div>
+              </li>
+              <li class="item-show row">
+                <div class="item-img col-md-2 col-sm-12">
+                  <img src="../img/viewable/item08.png" alt="" />
+                </div>
+                <div class="item-content col-md-10 col-sm-12">
+                  <h5>一体化交互设备</h5>
+                  <p>
+                    原生支持大屏多屏交互联动控制，支持席位、电子沙盘、手持/固定触控终端等多种控制设备，具备单点主控、集群联动的一体化操作模式，轻
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 可视化适用场景 -->
+    <section class="viewable-useage container">
+      <div class="useage-title row">
+        <h4>使用场景</h4>
+        <div class="title-bar">
+          <img src="../img/shiyong-titlebar.png" alt="" />
+        </div>
+      </div>
+      <div class="useage-list row">
+        <div class="useage-list-item col-md-3 col-sm-6">
+          <div class="useage-list-item-bg">
+            <div class="imgage">
+              <img src="../img/viewable/site01.png" alt="" />
+            </div>
+            <h4>指挥监控中心</h4>
+            <p>
+              为监控中心量身打造的解决方案，提供视网膜级分辨率大屏幕监控体验，强大的多屏操作模式，让大屏交互更轻松。
+            </p>
+          </div>
+        </div>
+        <div class="useage-list-item col-md-3 col-sm-6">
+          <div class="useage-list-item-bg">
+            <div class="imgage">
+              <img src="../img/viewable/site02.png" alt="" />
+            </div>
+            <h4>情报分析中心</h4>
+            <p>
+              为情报调查人员的打造可视分析专业产品，运用先进可视化、交互硬件设备和高级可视化软件技术，构建智能情报分析平台。
+            </p>
+          </div>
+        </div>
+        <div class="useage-list-item col-md-3 col-sm-6">
+          <div class="useage-list-item-bg">
+            <div class="imgage">
+              <img src="../img/viewable/site03.png" alt="" />
+            </div>
+            <h4>演示汇报中心</h4>
+            <p>
+              针对演示汇报中心，提供优异的数据展示功能，实现基于动态真实数据的展示汇报，同时确保数据实时性和精彩的动态展示效果。
+            </p>
+          </div>
+        </div>
+        <div class="useage-list-item col-md-3 col-sm-6">
+          <div class="useage-list-item-bg">
+            <div class="imgage">
+              <img src="../img/viewable/site04.png" alt="" />
+            </div>
+            <h4>多用途综合环境</h4>
+            <p>
+              针对多用途综合环境，提供高品质可视化软硬件产品和全方位的方案规划、集成实施服务。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+shi

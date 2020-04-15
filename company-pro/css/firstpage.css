@@ -1,0 +1,41 @@
+/* footer.css */
+.footer {
+  background: #24252a;
+}
+.footer .w-90 {
+  width: 90%;
+}
+.footer .pd-0 {
+  padding: 0;
+}
+.footer .pd-4 {
+  padding: 0 4px;
+}
+.footer a {
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 35px;
+  letter-spacing: 0px;
+  color: #999999;
+}
+.footer a:hover {
+  color: #666666;
+}
+.footer h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer h4 a {
+  color: #ffffff;
+  font-size: 16px;
+}
+.footer .company-info {
+  color: #888888;
+}
+.footer .company-record {
+  color: #888888;
+}
+.hp-hr {
+  border-color: #888888;
+  padding: 0;
+}
