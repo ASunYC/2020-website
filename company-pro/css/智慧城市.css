@@ -1,0 +1,158 @@
+@media(min-width:768px){
+    #cityWisdom_theme{
+        width: 100%;
+        overflow: hidden;
+        background-color: #eeeeee;
+    }
+    #cityWisdom_theme>.cityWisdom_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #cityWisdom_theme>.cityWisdom_title>img{
+        margin-top: 5px;
+    }
+    /* #cityWisdom>#cityWisdom_content03{
+        width: 80%;
+        margin: 80px auto;
+        position: relative;
+    } */
+    
+    /* #cityWisdom>#cityWisdom_content03>.cityWisdom_contentimg{
+        width: 100%;
+    } */
+    #cityWisdom_theme>.cityWisdom_content01>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText{
+        width: 100%;
+        background-color: #ffffff;
+        opacity: 0.9;
+    }
+    #cityWisdom_theme>.cityWisdom_content01>.cityWisdom_contentText>div>.title,
+    #cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentText>div>.title,
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText>div>.title,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText>div>.title,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText>div>.title,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText>div>.title{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding:  3% 5%;
+    }
+    #cityWisdom_theme>.cityWisdom_content01>.cityWisdom_contentText>div>.text,#cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentText>div>.text{
+        font-size: 14px;
+        line-height: 30px;
+        color: #555555;
+        padding: 0 5%;
+    }
+}
+
+@media(min-width:1200px){
+    /* 产品主题 */
+    #cityWisdom_theme>.cityWisdom_content01>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText{
+        position: absolute;
+        left: 10%;
+        bottom: 20%;
+        z-index: 2;
+        width: 720px;
+        /* height: 360px; */
+        display: flex;
+    }
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText{
+        /* height: 480px; */
+        bottom: 12%;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentText,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText{
+        position: absolute;
+        right: 10%;
+        bottom: 20%;
+        z-index: 2;
+        width: 720px;
+        display: flex;
+    }
+    /* #cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentText{
+        height: 360px;
+    } */
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText{
+        bottom: 11%;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText>div>div,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText>div>div,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText>div>div,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText>div>div{
+        display: flex;
+        padding: 0px 5% 3%;
+        justify-content: space-between;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText>div>div>div,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText>div>div>div{
+        width: 30%;
+    }
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText>div>div>div,#cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText>div>div>div{
+        width: 48%;
+    }
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText>div>div:last-child>div{
+        width: 100%;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText>div>div>div>img,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText>div>div>div>img,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText>div>div>div>img,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText>div>div>div>img{
+        display: block;
+       margin-bottom: 5px;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText div .tit,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText div .tit,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText div .tit,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText div .tit{
+        color: #2284d7;
+        font-size: 20px;
+        line-height: 38px;
+    }
+    #cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentText div .txt,
+    #cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentText div .txt,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentText div .txt,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentText div .txt{
+        color: #555555;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #cityWisdom_theme>.cityWisdom_content01>.cityWisdom_contentimg,
+    #cityWisdom_theme>.cityWisdom_content05>.cityWisdom_contentimg,
+    #cityWisdom_theme>.cityWisdom_content06>.cityWisdom_contentimg{
+        position: absolute;
+        right: 0;
+    }
+    #cityWisdom_theme>.cityWisdom_content02>.cityWisdom_contentimg,#cityWisdom_theme>.cityWisdom_content03>.cityWisdom_contentimg,#cityWisdom_theme>.cityWisdom_content04>.cityWisdom_contentimg{
+        position: absolute;
+        left: 0;
+    }
+    #cityWisdom_theme>.cityWisdom_content01,
+    #cityWisdom_theme>.cityWisdom_content02,
+    #cityWisdom_theme>.cityWisdom_content03,
+    #cityWisdom_theme>.cityWisdom_content04,
+    #cityWisdom_theme>.cityWisdom_content05,
+    #cityWisdom_theme>.cityWisdom_content06{
+        height: 603px;
+        display: flex;
+        position: relative;
+        margin-bottom: 50px;
+        overflow: hidden;
+    }
+}
+
+
+@media(max-width:768px){
+    
+    
+}

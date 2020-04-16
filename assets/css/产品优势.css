@@ -1,0 +1,53 @@
+@media(min-width:768px){
+    #cityWisdom_advantage{
+        width: 100%;
+        overflow: hidden;
+    }
+    #cityWisdom_advantage>.cityWisdom_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #cityWisdom_advantage>.cityWisdom_title>img{
+        margin-top: 5px;
+    }
+    #cityWisdom_advantage>.cityWisdom_advantagebox{
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #cityWisdom_advantage>.cityWisdom_advantagebox>div{
+        width: 30%;
+        box-shadow: 0px 0px 15px 0px rgba(11,3,6,0.15);
+    }
+    #cityWisdom_advantage>.cityWisdom_advantagebox>div>img{
+        width: 100%;
+        height: 160px;
+    }
+    #cityWisdom_advantage>.cityWisdom_advantagebox>div>.title{
+        font-size: 20px;
+        line-height: 26px;
+        color: #1f3147;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px 0px;
+    }
+    #cityWisdom_advantage>.cityWisdom_advantagebox>div>.text{
+        font-size: 14px;
+        line-height: 22px;
+        color: #555555;
+        text-align: center;
+        padding: 0px 5% 5%;
+    }
+}
+
+@media(min-width:1200px){
+
+}
+
+
+@media(max-width:768px){
+}

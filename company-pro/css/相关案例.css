@@ -1,0 +1,47 @@
+@media(min-width:768px){
+    #cityWisdom_example{
+        width: 100%;
+        overflow: hidden;
+    }
+    #cityWisdom_example>.cityWisdom_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin: 50px auto;
+        position: relative;
+    }
+    #cityWisdom_example>.cityWisdom_title>img{
+        margin-top: 5px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 47%;
+    }
+    
+    #cityWisdom_example>.container .thumbnail{
+        padding: 0;
+        height: 100%;
+        border: 0;
+        text-align: left;
+    }
+    
+    #cityWisdom_example>.container .thumbnail>p{
+        margin: 0;
+        text-indent: 1em;
+        height: 100%;
+        font-size: 14px;
+        line-height: 38px;
+        color: #333333;
+        font-family: "MicrosoftYaHei";
+    }
+    
+}
+
+@media(min-width:1200px){
+
+}
+
+
+@media(max-width:768px){
+}

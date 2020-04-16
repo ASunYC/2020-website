@@ -1,0 +1,91 @@
+/* 产品平台 */
+#cityWisdom_platform {
+  width: 100%;
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+#cityWisdom_platform > .cityWisdom_title,
+#cityWisdom_case > .cityWisdom_title {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#cityWisdom_platform > .cityWisdom_title > img,
+#cityWisdom_case > .cityWisdom_title > img {
+  margin-top: 5px;
+}
+#cityWisdom_platform > #cityWisdom_content01,
+#cityWisdom_content02 {
+  width: 80%;
+  height: 603px;
+  margin: 80px auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+#cityWisdom_platform > #cityWisdom_content02 > .cityWisdom_contentimg > img {
+  height: 603px;
+}
+#cityWisdom_platform > #cityWisdom_content02 > .cityWisdom_contentText {
+  width: 721px;
+  height: 360px;
+  background-color: #2d2f43;
+  line-height: 24px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#cityWisdom_platform > #cityWisdom_content01 > .cityWisdom_contentimg {
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+#cityWisdom_platform > #cityWisdom_content01 > .cityWisdom_contentimg > img {
+  width: 100%;
+  height: 603px;
+}
+#cityWisdom_platform > #cityWisdom_content01 > .cityWisdom_contentText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 720px;
+  height: 360px;
+  background-color: #2d2f43;
+}
+#cityWisdom_platform > #cityWisdom_content01 > .cityWisdom_contentText > img,
+#cityWisdom_platform > #cityWisdom_content02 > .cityWisdom_contentText > img {
+  vertical-align: super;
+  width: 100%;
+  padding: 0px 5%;
+}
+#cityWisdom_platform
+  > #cityWisdom_content01
+  > .cityWisdom_contentText
+  > p:first-child,
+#cityWisdom_platform
+  > #cityWisdom_content02
+  > .cityWisdom_contentText
+  > p:first-child {
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5% 5% 0px 5%;
+}
+#cityWisdom_platform
+  > #cityWisdom_content01
+  > .cityWisdom_contentText
+  > p:last-child,
+#cityWisdom_platform
+  > #cityWisdom_content02
+  > .cityWisdom_contentText
+  > p:last-child {
+  font-size: 14px;
+  line-height: 30px;
+  color: #dddddd;
+  padding: 0 5%;
+}

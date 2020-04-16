@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <stl:include file="@/include/header.html"> </stl:include>
+    <stl:include file="/include/header.html"> </stl:include>
+    <link rel="stylesheet" href="/company-pro/css/response01.css" />
+    <link rel="stylesheet" href="/company-pro/css/firstpage.css" />
+    <link rel="stylesheet" href="/company-pro/css/cooperator.css" />
+    <link rel="stylesheet" href="/company-pro/css/swiper.min.css" />
+    <link rel="stylesheet" href="/company-pro/css/swiper.css" />
+    <link rel="stylesheet" href="/company-pro/css/head.css" />
+    <link rel="stylesheet" href="/company-pro/css/card.css" />
+    <link rel="stylesheet" href="/company-pro/css/tech-channel.css" />
+    <link rel="stylesheet" href="/company-pro/css/banner.css" />
+    <link rel="stylesheet" href="/company-pro/css/viewgeo.css" />
+    <!-- script -->
+    <script src="/company-pro/js/swiper.min.js"></script>
+    <script src="/company-pro/js/jquery-3.2.1.min.js"></script>
+    <script src="/company-pro/js/swiper.js"></script>
+    <script src="/company-pro/js/bootstrap.min.js"></script>
+    <script src="/company-pro/js/head.js"></script>
+    <!-- <link rel="stylesheet" href="/css/firstpage.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/response01.css" /> -->
+    <title>数字冰雹</title>
+  </head>
+  <body>
+    <!-- nav导航栏 -->
+    <section>
+      <stl:include file="@/include/nav.html"> </stl:include>
+    </section>
+    <!-- banner  -->
+    <section>
+      <stl:include file="@/include/banner-common.html"> </stl:include>
+    </section>
+    <section>
+      <stl:include file="@/include/card.html"> </stl:include>
+    </section>
+    <!-- 功能亮点 -->
+    <section class="light-function">
+      <div class="container under-light-container">
+        <div class="fun-title">
+          <h4>功能亮点</h4>
+          <img src="../img/light-function.png" alt="" />
+        </div>
+        <ul class="row list-unstyled fun-wrapper">
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun01.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>瓦片数据服务</h4>
+              <p>
+                可以提供多种地图瓦片数据服务，包括政区图、卫星影像、地形图等，地图数据涵盖全球范围，最高精度可达每像素1米。
+              </p>
+            </div>
+          </li>
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun02.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>要素数据服务</h4>
+              <p>
+                支持各类矢量地图要素数据服务，包括各级道路、公共设施、企业建筑、行政区划、海洋边界、等高线、自然环境等。
+              </p>
+            </div>
+          </li>
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun03.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>高程数据服务</h4>
+              <p>
+                提供全球陆地高程数据服务，支持可视化系统三维地形显示。高程数据最高精度可达每像素30米，并支持线性插值为20/10/5米等更高。
+              </p>
+            </div>
+          </li>
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun04.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>数据采集服务</h4>
+              <p>
+                提供地图数据、要素数据、高程数据等网络数据采集服务，支持客户自有地理信息数据导入，满足客户对地图数据的特定需求。
+              </p>
+            </div>
+          </li>
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun05.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>数据转换校正服务</h4>
+              <p>
+                提供各类数据投影坐标转换服务，如WGS84、墨卡托、北京54、西安80和CGCS2000等；提供坐标偏移校正服务，实现不同来源数据的叠加显示。
+              </p>
+            </div>
+          </li>
+          <li class="li-relative">
+            <div class="li-img">
+              <img src="../img/viewgeo/fun06.png" alt="" />
+            </div>
+            <div class="li-content">
+              <h4>多种地图风格可选</h4>
+              <p>
+                支持详细定义地图风格，并标配多种风格可供选择，适应不同的可视化系统需求，实现炫酷的地图显示效果。
+              </p>
+            </div>
+          </li>
+          <!-- <div class="posi-relative">
+              <img class="fun-img" src="../img/viewgeo/fun02.png" alt="" />
+              <div class="fun-content">
+                <h4>要素数据服务</h4>
+                <p>
+                  支持各类矢量地图要素数据服务，包括各级道路、公共设施、企业建筑、行政区划、海洋边界、等高线、自然环境等。
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-sm-12 li-wrapper">
+            <div class="posi-relative">
+              <img class="fun-img" src="../img/viewgeo/fun03.png" alt="" />
+              <div class="fun-content">
+                <h4>高程数据服务</h4>
+                <p>
+                  提供全球陆地高程数据服务，支持可视化系统三维地形显示。高程数据最高精度可达每像素30米，并支持线性插值为20/10/5米等更高
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-sm-12 li-wrapper">
+            <div class="posi-relative">
+              <img class="fun-img" src="../img/viewgeo/fun04.png" alt="" />
+              <div class="fun-content">
+                <h4>数据采集服务</h4>
+                <p>
+                  提供地图数据、要素数据、高程数据等网络数据采集服务，支持客户自有地理信息数据导入，满足客户对地图数据的特定需求。
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-sm-12 li-wrapper">
+            <div class="posi-relative">
+              <img class="fun-img" src="../img/viewgeo/fun05.png" alt="" />
+              <div class="fun-content">
+                <h4>数据转换校正服务</h4>
+                <p>
+                  提供各类数据投影坐标转换服务，如WGS84、墨卡托、北京54、西安80和CGCS2000等；提供坐标偏移校正服务，实现不同来源数据的叠加显示。
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-sm-12 li-wrapper">
+            <div class="posi-relative">
+              <img class="fun-img" src="../img/viewgeo/fun06.png" alt="" />
+              <div class="fun-content">
+                <h4>多种地图风格可选</h4>
+                <p>
+                  支持详细定义地图风格，并标配多种风格可供选择，适应不同的可视化系统需求，实现炫酷的地图显示效果。
+                </p>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </section>
+    <!-- form 表单 -->
+    <stl:include file="@/include/concat.html"> </stl:include>
+    <!-- footer尾部 -->
+    <stl:include file="@/include/footer.html"> </stl:include>
+  </body>
+</html>

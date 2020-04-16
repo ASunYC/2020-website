@@ -1,0 +1,50 @@
+@media(min-width:768px){
+    /* 产品功能 */
+#cityWisdom_function>.cityWisdom_title{
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#cityWisdom_function>.cityWisdom_title>img{
+    margin-top: 5px;
+}
+#cityWisdom_function>.cityWisdom_content{
+    width: 80%;
+    margin: 0px auto 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#cityWisdom_function>.cityWisdom_content>.cityWisdom_box{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#cityWisdom_function>.cityWisdom_content>.cityWisdom_box>.cityWisdom_boxImg{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+}
+#cityWisdom_function>.cityWisdom_content>.cityWisdom_box>.cityWisdom_boxText{
+    width: 80%;
+}
+#cityWisdom_function>.cityWisdom_content>.cityWisdom_box>.cityWisdom_boxText>p:first-child{
+   font-size: 18px;
+   line-height: 38px;
+   color: #1f3147;
+}
+#cityWisdom_function>.cityWisdom_content>.cityWisdom_box>.cityWisdom_boxText>p:last-child{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555554;
+}
+}
+
+@media(min-width:1200px){
+
+}
+
+
+@media(max-width:768px){
+}

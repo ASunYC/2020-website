@@ -1,0 +1,25 @@
+#banner {
+  background: url('/company-pro/img/banner/banner01.png') no-repeat;
+  background-size: cover;
+  height: 660px;
+  position: relative;
+}
+#banner > p:first-child {
+  font-size: 55px;
+  line-height: 52px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 164px;
+  left: 12%;
+}
+#banner > p:last-child {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  padding: 0px 10% 2%;
+}

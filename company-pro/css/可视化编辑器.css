@@ -1,0 +1,175 @@
+@media(min-width:768px){
+    #editor{
+        width: 100%;
+        overflow: hidden;
+    }
+    #editor>#editor_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #editor>#editor_title>img{
+        margin-top: 5px;
+        width: 164px;
+    }
+    #editor>#editor_content01,#editor_content02,#editor_content03,#editor_content04,#editor_content05,#editor_content06{
+        width: 80%;
+        margin: 80px auto;
+        position: relative;
+    }
+    #editor>#editor_content01>.editor_contentimg>img,#editor>#editor_content02>.editor_contentimg>img,#editor>#editor_content03>.editor_contentimg>img,#editor>#editor_content04>.editor_contentimg>img,#editor>#editor_content05>.editor_contentimg>img,#editor>#editor_content06>.editor_contentimg>img{
+        width: 100%;
+    }
+    #editor>#editor_content02>.editor_contentText,#editor>#editor_content04>.editor_contentText,#editor>#editor_content06>.editor_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+    }
+    #editor>#editor_content01>.editor_contentimg,#editor>#editor_content02>.editor_contentimg,#editor>#editor_content03>.editor_contentimg,#editor>#editor_content04>.editor_contentimg,#editor>#editor_content05>.editor_contentimg,#editor>#editor_content06>.editor_contentimg{
+        width: 100%;
+    }
+    #editor>#editor_content01>.editor_contentText,#editor>#editor_content03>.editor_contentText,#editor>#editor_content05>.editor_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+    }
+    #editor>#editor_content01>.editor_contentText>p:first-child,#editor>#editor_content02>.editor_contentText>p:first-child,#editor>#editor_content03>.editor_contentText>p:first-child,#editor>#editor_content04>.editor_contentText>p:first-child,#editor>#editor_content05>.editor_contentText>p:first-child,#editor>#editor_content06>.editor_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 5%;
+    }
+    #editor>#editor_content01>.editor_contentText>p:last-child,#editor>#editor_content02>.editor_contentText>p:last-child,#editor>#editor_content03>.editor_contentText>p:last-child,#editor>#editor_content04>.editor_contentText>p:last-child,#editor>#editor_content05>.editor_contentText>p:last-child,#editor>#editor_content06>.editor_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+}
+
+@media(min-width:1200px){
+    #editor{
+        width: 100%;
+        overflow: hidden;
+    }
+    #editor>#editor_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #editor>#editor_content01,#editor_content02,#editor_content03,#editor_content04,#editor_content05,#editor_content06{
+        width: 75%;
+        height: 603px;
+        margin: 80px auto;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    #editor>#editor_content02>.editor_contentimg>img,#editor>#editor_content04>.editor_contentimg>img,#editor>#editor_content06>.editor_contentimg>img{
+        width: 80%;
+        height: 603px;
+    }
+    #editor>#editor_content02>.editor_contentText,#editor>#editor_content04>.editor_contentText,#editor>#editor_content06>.editor_contentText{
+        width: 721px;
+        height: 360px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    #editor>#editor_content01>.editor_contentimg,#editor>#editor_content03>.editor_contentimg,#editor>#editor_content05>.editor_contentimg{
+        width: 80%;
+        position: absolute;
+        right: 0;
+    }
+    #editor>#editor_content01>.editor_contentimg>img,#editor>#editor_content03>.editor_contentimg>img,#editor>#editor_content05>.editor_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #editor>#editor_content01>.editor_contentText,#editor>#editor_content03>.editor_contentText,#editor>#editor_content05>.editor_contentText{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        width: 720px;
+        height: 360px;
+        background-color: #2d2f43;
+    }
+    #editor>#editor_content01>.editor_contentText>p:first-child,#editor>#editor_content02>.editor_contentText>p:first-child,#editor>#editor_content03>.editor_contentText>p:first-child,#editor>#editor_content04>.editor_contentText>p:first-child,#editor>#editor_content05>.editor_contentText>p:first-child,#editor>#editor_content06>.editor_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 5%;
+    }
+    #editor>#editor_content01>.editor_contentText>p:last-child,#editor>#editor_content02>.editor_contentText>p:last-child,#editor>#editor_content03>.editor_contentText>p:last-child,#editor>#editor_content04>.editor_contentText>p:last-child,#editor>#editor_content05>.editor_contentText>p:last-child,#editor>#editor_content06>.editor_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+}
+
+
+@media(max-width:768px){
+    #editor{
+        width: 100%;
+        overflow: hidden;
+    }
+    #editor>#editor_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #editor>#editor_content01,#editor_content02,#editor_content03,#editor_content04,#editor_content05,#editor_content06{
+        width: 80%;
+        margin: 80px auto;
+        position: relative;
+    }
+    #editor>#editor_content02>.editor_contentimg>img,#editor>#editor_content04>.editor_contentimg>img,#editor>#editor_content06>.editor_contentimg>img{
+        width: 100%;
+    }
+    #editor>#editor_content02>.editor_contentText,#editor>#editor_content04>.editor_contentText,#editor>#editor_content06>.editor_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+        padding: 5%;
+    }
+    #editor>#editor_content01>.editor_contentimg,#editor>#editor_content03>.editor_contentimg,#editor>#editor_content05>.editor_contentimg{
+        width: 100%;
+    }
+    #editor>#editor_content01>.editor_contentimg>img,#editor>#editor_content03>.editor_contentimg>img,#editor>#editor_content05>.editor_contentimg>img{
+        width: 100%;
+    }
+    #editor>#editor_content01>.editor_contentText,#editor>#editor_content03>.editor_contentText,#editor>#editor_content05>.editor_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+    }
+    #editor>#editor_content01>.editor_contentText>p:first-child,#editor>#editor_content02>.editor_contentText>p:first-child,#editor>#editor_content03>.editor_contentText>p:first-child,#editor>#editor_content04>.editor_contentText>p:first-child,#editor>#editor_content05>.editor_contentText>p:first-child,#editor>#editor_content06>.editor_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 5%;
+    }
+    #editor>#editor_content01>.editor_contentText>p:last-child,#editor>#editor_content02>.editor_contentText>p:last-child,#editor>#editor_content03>.editor_contentText>p:last-child,#editor>#editor_content04>.editor_contentText>p:last-child,#editor>#editor_content05>.editor_contentText>p:last-child,#editor>#editor_content06>.editor_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+}

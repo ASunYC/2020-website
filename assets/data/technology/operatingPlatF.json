@@ -1,0 +1,29 @@
+{
+    "technologyTitle": "技术优势",
+    "technologyList": [
+        {
+            "cnName": "效果非凡",
+            "enName": "Effect of Special",
+            "imgUrl": "/img/technology/technology_01.png",
+            "content": "集成丰富的可视化组件,可实现丰富的数据可视化效果,为客户提供非凡视觉体验"
+        },
+        {
+            "cnName": "功能强大",
+            "enName": "Powerful",
+            "imgUrl": "/img/technology/technology_02.png",
+            "content": "强大的集群渲染支持、集群联动协同交互、可视化应用管理功能，原生支持大屏矩阵控制，可应对用户各种复杂的应用场景"
+        },
+        {
+            "cnName": "稳定可靠",
+            "enName": "Stable and Reliable",
+            "imgUrl": "/img/technology/technology_03.png",
+            "content": "稳定可靠的大数据吞吐能力，超凡的显示性能；可视化组件内核级优先，确保可视化系统稳定运行"
+        },
+        {
+            "cnName": "实施高效",
+            "enName": "Implementation of Efficient",
+            "imgUrl": "/img/technology/technology_04.png",
+            "content": "预置丰富的可视化组件，充分满足各行业不同项目需求，可视化系统搭建轻松快捷，有效缩短实施周期"
+        }
+    ]
+}

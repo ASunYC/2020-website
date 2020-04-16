@@ -1,0 +1,448 @@
+@media(min-width:768px){
+    #Rendering{
+        width: 100%;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #Rendering>#Rendering_content02,#Rendering_content03,#Rendering_content04,#Rendering_content01,#Rendering_content05{
+        width: 80%;
+        margin: 80px auto;
+        position: relative;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentimg>img,#Rendering>#Rendering_content01>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText{
+        width: 100%;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        margin: 5%;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_box{
+        display: flex;
+        justify-content: space-around;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01{
+        width: 186px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:first-child{
+        font-size: 18px;
+        color: #22d1d7;
+        font-weight: bold;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>img{
+        vertical-align: middle;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_title,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding:5%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box{
+        display: flex;
+        padding: 0px 5%;
+        justify-content: space-between;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        color: #22d1d7;
+        font-size: 16px;
+        line-height: 25px;
+        width: 30%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type{
+        color: #dddddd;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg,#Rendering>#Rendering_content05>.Rendering_contentimg{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg>img,#Rendering>#Rendering_content05>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText,#Rendering>#Rendering_content01>.Rendering_contentText,#Rendering>#Rendering_content05>.Rendering_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg{
+        width: 100%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText{
+        width: 100%;
+        height: 360px;
+        background-color: #2d2f43;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>p:first-child,#Rendering>#Rendering_content01>.Rendering_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 3% 5%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box{
+        padding: 0px 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        width: 40%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:first-child{
+        font-size: 16px;
+        line-height: 25px;
+        color: #22d1d7;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        width: 100%;
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        line-height: 24px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content01>.Rendering_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+    #Rendering_content01>.Rendering_contentimg{
+        width: 100%;
+    }
+}
+
+@media(min-width:1200px){
+    #Rendering{
+        width: 100%;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #Rendering>#Rendering_content02,#Rendering_content03,#Rendering_content04,#Rendering_content01,#Rendering_content05{
+        width: 75%;
+        height: 603px;
+        margin: 80px auto;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentimg{
+        width: 80%;
+        position: absolute;
+        right: 0;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentimg>img,#Rendering>#Rendering_content01>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText{
+        width: 721px;
+        height: 418px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        margin: 30px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_box{
+        display: flex;
+        width: 721px;
+        justify-content: space-around;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01{
+        width: 186px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:first-child{
+        font-size: 18px;
+        color: #22d1d7;
+        font-weight: bold;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>img{
+        vertical-align: middle;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_title,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding:5%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box{
+        display: flex;
+        padding: 0px 5%;
+        justify-content: space-between;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        color: #22d1d7;
+        font-size: 16px;
+        line-height: 25px;
+        width: 30%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type{
+        color: #dddddd;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg,#Rendering>#Rendering_content05>.Rendering_contentimg{
+        width: 80%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg>img,#Rendering>#Rendering_content05>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText,#Rendering>#Rendering_content01>.Rendering_contentText,#Rendering>#Rendering_content05>.Rendering_contentText{
+        width: 721px;
+        height: 360px;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg{
+        width: 80%;
+        position: absolute;
+        right: 0;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        width: 720px;
+        height: 360px;
+        background-color: #2d2f43;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>p:first-child,#Rendering>#Rendering_content01>.Rendering_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 3% 5%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box{
+        padding: 0px 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        width: 40%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:first-child{
+        font-size: 16px;
+        line-height: 25px;
+        color: #22d1d7;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        width: 100%;
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        line-height: 24px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content01>.Rendering_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+    #Rendering_content01>.Rendering_contentimg{
+        width: 80%;
+    }
+}
+
+
+@media(max-width:768px){
+    #Rendering{
+        width: 100%;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_title{
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    #Rendering>#Rendering_content02,#Rendering_content03,#Rendering_content04,#Rendering_content01,#Rendering_content05{
+        width: 80%;
+        margin: 80px auto;
+        position: relative;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentimg>img,#Rendering>#Rendering_content01>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText{
+        width: 100%;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        margin: 5%;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText>.Rendering_contentText_box{
+        margin: 0px 5%;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01{
+        width: 100%;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:first-child{
+        font-size: 18px;
+        color: #22d1d7;
+        font-weight: bold;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>img{
+        vertical-align: middle;
+    }
+    #Rendering>#Rendering_content02>.Rendering_contentText .Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_title,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_title{
+        font-size: 26px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding:5%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box{
+        padding: 0px 5%;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        color: #22d1d7;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type,#Rendering>#Rendering_content05>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-of-type{
+        color: #dddddd;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg,#Rendering>#Rendering_content05>.Rendering_contentimg{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentimg>img,#Rendering>#Rendering_content05>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content03>.Rendering_contentText,#Rendering>#Rendering_content01>.Rendering_contentText,#Rendering>#Rendering_content05>.Rendering_contentText{
+        width: 100%;
+        background-color: #2d2f43;
+        line-height: 24px;
+        overflow: hidden;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg{
+        width: 100%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentimg>img{
+        width: 100%;
+        height: 603px;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText{
+        width: 100%;
+        background-color: #2d2f43;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>p:first-child,#Rendering>#Rendering_content01>.Rendering_contentText>p:first-child{
+        font-size: 26px;
+        line-height: 38px;
+        color: #00a2ff;
+        font-weight: bold;
+        padding: 3% 5%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box{
+        padding: 0px 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01{
+        width: 40%;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:first-child{
+        font-size: 16px;
+        line-height: 25px;
+        color: #22d1d7;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>img{
+        width: 100%;
+        vertical-align: super;
+    }
+    #Rendering>#Rendering_content04>.Rendering_contentText>.Rendering_contentText_box>.Rendering_contentText_box01>p:last-child{
+        font-size: 14px;
+        line-height: 24px;
+        color: #dddddd;
+    }
+    #Rendering>#Rendering_content01>.Rendering_contentText>p:last-child{
+        font-size: 14px;
+        line-height: 30px;
+        color: #dddddd;
+        padding: 0 5%;
+    }
+    #Rendering_content01>.Rendering_contentimg{
+        width: 100%;
+    }
+}
